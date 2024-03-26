@@ -34,7 +34,7 @@ ul {
   color: #2e2f42;
 }
 
-.menu-link {
+.menu {
   font-family: var(--font-family);
   font-weight: 500;
   font-size: 16px;
@@ -44,7 +44,7 @@ ul {
   text-decoration: none;
 }
 
-.contacts-link {
+.contacts {
   font-family: var(--font-family);
   font-weight: 400;
   font-size: 16px;
@@ -65,7 +65,7 @@ ul {
   color: white;
 }
 
-.button-title {
+.button {
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
   background: var(--iris);
 }
