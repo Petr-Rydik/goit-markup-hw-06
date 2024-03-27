@@ -70,23 +70,12 @@ ul {
 }
 
 .button {
-  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
-  color: #4d5ae5;
-  background: #4d5ae5;
-  border-radius: 4px;
-  padding: 16px 32px;
-  width: 169px;
-  height: 56px;
-  cursor: pointer;
-}
-
-.button-text {
-  font-family: var(--font-family);
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 150%;
-  letter-spacing: 0.04em;
-  color: white;
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.04em;
+    color: white;
 }
 
 .buttun:hover {
