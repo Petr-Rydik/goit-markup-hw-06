@@ -36,11 +36,11 @@ ul {
   text-decoration: none;
 }
 
-.menu-links .menu:hover {
+.menu .menu-link:hover {
   color: #404bbf;
 }
 
-.menu-links .menu:focus {
+.menu .menu-link:focus {
   color: #404bbf;
 }
 
