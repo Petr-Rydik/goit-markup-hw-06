@@ -67,6 +67,16 @@ ul {
   background-color: #2e2f42;
 }
 
+.portf {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 111%;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #434455;
+}
+
 .page-title {
   font-family: "Roboto";
   font-weight: 700;
@@ -125,7 +135,7 @@ ul {
 }
 
 .dream {
-  background-color: #F4F4FD;
+  background-color: #f4f4fd;
 }
 
 .team {
@@ -136,7 +146,7 @@ ul {
   letter-spacing: 0.02em;
   text-align: center;
   text-transform: capitalize;
-  color: #2E2F42;
+  color: #2e2f42;
 }
 
 .team-title {
