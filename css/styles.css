@@ -11,10 +11,6 @@ ul {
   list-style-type: none;
 }
 
-.conteiner {
-  background-color: #2e2f42;
-}
-
 .logo {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
@@ -71,7 +67,7 @@ ul {
   color: #404bbf;
 }
 
-.conteiner1 {
+.conta {
   background-color: #2e2f42;
 }
 
@@ -104,7 +100,7 @@ ul {
   background-color: #404bbf;
 }
 
-.i-title {
+.contb-title {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 20px;
@@ -113,7 +109,7 @@ ul {
   color: #434455;
 }
 
-.i-text {
+.contb-text {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 16px;
