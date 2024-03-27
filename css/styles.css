@@ -42,7 +42,7 @@ ul {
 
 .menu-links .menu:active {
   color: #404bbf;
-}
+  }
 
 .contacts {
   font-family: var(--font-family);
