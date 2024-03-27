@@ -81,10 +81,15 @@ ul {
     line-height: 150%;
     letter-spacing: 0.04em;
     color: white;
+    cursor: pointer;
 }
 
 .button:hover {
-  color: #404bbf;
+  background-color: #404bbf;
+}
+
+.button:focus {
+    background-color: #404BBF;
 }
 
 .section-title {
