@@ -7,6 +7,10 @@ body {
   background-color: #ffffff;
 }
 
+ul {
+    list-style-type: none;
+}
+
 .logo {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
@@ -38,7 +42,7 @@ body {
 
 .menu-links .menu:focus {
   color: #404bbf;
-  }
+}
 
 .contacts-links {
   font-family: "Roboto", sans-serif;
@@ -56,11 +60,11 @@ body {
 }
 
 .contacts-links .contacts:focus {
-    color: #404bbf;
+  color: #404bbf;
 }
 
 .iiii {
-    background-color: #2e2f42;
+  background-color: #2e2f42;
 }
 
 .page-title {
@@ -74,14 +78,14 @@ body {
 }
 
 .button {
-    font-family: "Roboto", sans-serif;
-    background-color: #4D5AE5;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 150%;
-    letter-spacing: 0.04em;
-    color: white;
-    cursor: pointer;
+  font-family: "Roboto", sans-serif;
+  background-color: #4d5ae5;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.04em;
+  color: white;
+  cursor: pointer;
 }
 
 .button:hover {
@@ -89,7 +93,7 @@ body {
 }
 
 .button:focus {
-    background-color: #404BBF;
+  background-color: #404bbf;
 }
 
 .section-title {
