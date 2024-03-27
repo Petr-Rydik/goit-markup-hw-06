@@ -63,7 +63,7 @@ ul {
   color: #404bbf;
 }
 
-.iiii {
+.conteiner1 {
   background-color: #2e2f42;
 }
 
@@ -106,23 +106,13 @@ ul {
   background-color: #404bbf;
 }
 
-.section-title {
-  font-family: "Roboto", sans-serif;
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 111%;
-  letter-spacing: 0.02em;
-  text-align: center;
-  color: #2e2f42;
-}
-
-.i-titles {
+.i-title {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 20px;
   line-height: 120%;
   letter-spacing: 0.02em;
-  color: #2e2f42;
+  color: #434455;
 }
 
 .i-text {
@@ -134,7 +124,7 @@ ul {
   color: #434455;
 }
 
-.dream {
+.conteiner3 {
   background-color: #f4f4fd;
 }
 
