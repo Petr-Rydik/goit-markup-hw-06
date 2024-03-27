@@ -67,16 +67,6 @@ ul {
   background-color: #2e2f42;
 }
 
-.portf {
-  font-family: "Roboto", sans-serif;
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 111%;
-  letter-spacing: 0.02em;
-  text-align: center;
-  color: #434455;
-}
-
 .page-title {
   font-family: "Roboto";
   font-weight: 700;
@@ -154,6 +144,16 @@ ul {
   font-weight: 400;
   font-size: 16px;
   line-height: 150%;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #434455;
+}
+
+.portf {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 111%;
   letter-spacing: 0.02em;
   text-align: center;
   color: #434455;
