@@ -129,12 +129,13 @@ ul {
 }
 
 .team {
-  font-family: "Roboto" sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: 700;
   font-size: 36px;
   line-height: 111%;
   letter-spacing: 0.02em;
   text-align: center;
+  text-transform: capitalize;
   color: #2E2F42;
 }
 
