@@ -4,7 +4,7 @@ body {
   font-style: normal;
   font-size: 16px;
   color: #434455;
-  background-color: #FFFFFF;
+  background-color: #ffffff;
 }
 
 ul {
@@ -22,7 +22,7 @@ ul {
   line-height: 117%;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #4D5AE5;
+  color: #4d5ae5;
 }
 
 .logo2 {
@@ -46,11 +46,11 @@ ul {
 }
 
 .menu-links .menu:hover {
-    color: #404BBF;
-} 
+  color: #404bbf;
+}
 
 .menu-links .menu:active {
-    color: #404BBF;
+  color: #404bbf;
 }
 
 .contacts {
@@ -65,7 +65,7 @@ ul {
 }
 
 .contacts-links .contacts:hover {
-    color: #404BBF;
+  color: #404bbf;
 }
 
 .page-title {
@@ -80,8 +80,26 @@ ul {
 
 .button {
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
-  background: var(--iris);
+  color: #4d5ae5;
+  background: #4d5ae5;
+  border-radius: 4px;
+  padding: 16px 32px;
+  width: 169px;
+  height: 56px;
   cursor: pointer;
+}
+
+.button-text {
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.04em;
+  color: white;
+}
+
+.buttun:hover {
+  color: #404bbf;
 }
 
 .section-title {
