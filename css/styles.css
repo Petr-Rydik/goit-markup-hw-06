@@ -1,8 +1,8 @@
 body {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
-  font-style: normal;
   font-size: 16px;
+  font-style: norm;
   color: #434455;
   background-color: #ffffff;
 }
@@ -26,10 +26,6 @@ ul {
   color: #2e2f42;
 }
 
-.menu {
-  color: #434455;
-}
-
 .menu-link {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
@@ -48,22 +44,22 @@ ul {
   color: #404bbf;
 }
 
-.contacts-links {
+.contacts-link {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
+  font-style: normal;
   font-size: 16px;
-  text-decoration: none;
   line-height: 150%;
   letter-spacing: 0.02em;
   color: #434455;
-  font-style: normal;
+  text-decoration: none;
 }
 
-.contacts-links .contacts:hover {
+.contacts .contacts-link:hover {
   color: #404bbf;
 }
 
-.contacts-links .contacts:focus {
+.contacts .contacts-link:focus {
   color: #404bbf;
 }
 
