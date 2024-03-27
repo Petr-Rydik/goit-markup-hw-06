@@ -3,7 +3,7 @@ body {
   font-weight: 400;
   font-style: normal;
   font-size: 16px;
-  color: #2e2f42;
+  color: white;
 }
 
 ul {
@@ -21,7 +21,7 @@ ul {
   line-height: 117%;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: var(--iris);
+  color: #4D5AE5;
 }
 
 .logo2 {
@@ -44,6 +44,14 @@ ul {
   text-decoration: none;
 }
 
+.menu-links .menu:hover {
+    color: #404BBF;
+} 
+
+.menu-links .menu:active {
+    color: #404BBF;
+}
+
 .contacts {
   font-family: var(--font-family);
   font-weight: 400;
@@ -53,6 +61,10 @@ ul {
   line-height: 150%;
   letter-spacing: 0.02em;
   color: #434455;
+}
+
+.contacts-links .contacts:hover {
+    color: #404BBF;
 }
 
 .page-title {
@@ -68,6 +80,7 @@ ul {
 .button {
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
   background: var(--iris);
+  cursor: pointer;
 }
 
 .section-title {
