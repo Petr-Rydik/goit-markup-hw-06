@@ -118,6 +118,10 @@ ul {
   color: #434455;
 }
 
+.contc {
+  background-color: #F4F4FD;
+}
+
 .team {
   font-family: "Roboto", sans-serif;
   font-weight: 700;
@@ -127,11 +131,6 @@ ul {
   text-align: center;
   text-transform: capitalize;
   color: #2e2f42;
-}
-
-
-.contc {
-  background-color: #F4F4FD;
 }
 
 .contc .title {
