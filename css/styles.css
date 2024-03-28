@@ -118,10 +118,6 @@ ul {
   color: #434455;
 }
 
-.contc {
-  background-color: #f4f4fd;
-}
-
 
 .team {
   font-family: "Roboto", sans-serif;
@@ -132,10 +128,6 @@ ul {
   text-align: center;
   text-transform: capitalize;
   color: #2e2f42;
-}
-
-.dream .title {
-  background-color: #FFFFFF;
 }
 
 .contc .title {
