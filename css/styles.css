@@ -101,7 +101,7 @@ ul {
 }
 
 
-.contb-title {
+.contb .quality .title {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 20px;
@@ -110,7 +110,7 @@ ul {
   color: #2e2f42;
 }
 
-.contb-text {
+ .contb .cuality .text {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 16px;
