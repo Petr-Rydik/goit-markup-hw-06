@@ -100,7 +100,7 @@ ul {
   background-color: #404bbf;
 }
 
-.contb .title {
+.cont_b .title {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 20px;
@@ -109,7 +109,7 @@ ul {
   color: #2e2f42;
 }
 
-.contb .text {
+.cont_b .text {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 16px;
@@ -118,7 +118,7 @@ ul {
   color: #434455;
 }
 
-.contc {
+.cont_c {
   background-color: #F4F4FD;
 }
 
@@ -137,7 +137,7 @@ ul {
   background-color: #FFFFFF;
 }
 
-.contc .title {
+.cont_c .title {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 20px;
@@ -147,7 +147,7 @@ ul {
   color: #2e2f42;
 }
 
-.contc .text {
+.cont_c .text {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 16px;
