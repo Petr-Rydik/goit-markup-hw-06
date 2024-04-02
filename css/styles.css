@@ -33,11 +33,13 @@ img {
 
 .page-header {
   border-bottom: 1px solid #e7e9fc;
+  width: 1440px;
+  height: 72px;
+  background: #fff;
 }
 
 .page-header .conteiner {
   display: flex;
-  background-color: yellow;
 }
 
 .logo {
