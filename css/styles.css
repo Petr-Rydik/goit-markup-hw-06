@@ -53,14 +53,12 @@ img {
   background-color: black;
 }
 
-.nav .logo {
+.nav {
   display: flex;
   align-items: center;
   justify-content: flex-start;
   flex-direction: row;
   gap: 0px;
-  padding-top: 24px;
-  padding-bottom: 24px;
 }
 
 .logos {
