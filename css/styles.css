@@ -97,6 +97,12 @@ img {
   font-style: normal;
 }
 
+.contacts-menu {
+  display: flex;
+  gap: 40px;
+  margin-left: 332px;
+}
+
 .contacts-link {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
