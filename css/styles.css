@@ -163,6 +163,7 @@ img {
 }
 .cont_c {
   background-color: #f4f4fd;
+  height: 732px;
 }
 .team {
   font-family: "Roboto", sans-serif;
@@ -173,6 +174,15 @@ img {
   text-align: center;
   text-transform: capitalize;
   color: #2e2f42;
+  padding-top: 120px;
+}
+.cool {
+  display: flex;
+  gap: 24px;
+  margin-top: 72px;
+}
+.cool .dream {
+  width: calc((100% - 72px) / 4);
 }
 .dream {
   background-color: #ffffff;
@@ -185,6 +195,7 @@ img {
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
+  margin-top: 32px;
 }
 .cont_c .text {
   font-family: "Roboto", sans-serif;
@@ -194,6 +205,8 @@ img {
   letter-spacing: 0.02em;
   text-align: center;
   color: #434455;
+  margin-top: 8px;
+  margin-bottom: 32px;
 }
 .portf {
   font-family: "Roboto", sans-serif;
