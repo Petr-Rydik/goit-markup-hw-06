@@ -37,12 +37,7 @@ img {
 
 .page-header .conteiner {
   display: flex;
-}
-
-.page-header .conteiner {
-  max-width: 1158px;
-  margin: 0 auto;
-  padding: 0 15px;
+  height: 72px;
 }
 
 .nav {
@@ -108,6 +103,7 @@ img {
   display: flex;
   gap: 40px;
   margin-left: 332px;
+  padding-top: 24px;
 }
 
 .contacts-link {
