@@ -141,9 +141,6 @@ img {
   display: flex;
   gap: 24px;
 }
-.factors .fact {
-  width: calc((100% - 72px) / 4);
-}
 .cont_b .title {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
