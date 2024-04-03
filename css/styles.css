@@ -47,13 +47,13 @@ img {
   text-transform: uppercase;
   text-decoration: none;
   color: #4d5ae5;
+  margin-right: 76px;
 }
 .logos {
   color: #2e2f42;
 }
 .menu {
   display: flex;
-  margin-left: 76px;
   gap: 40px;
 }
 .menu-link {
