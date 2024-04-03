@@ -35,6 +35,12 @@ img {
   border-bottom: 1px solid #e7e9fc;
 }
 
+.flex-box {
+  display: flex;
+  justify-content: space-between;
+  align-self: center;
+}
+
 .page-header .conteiner {
   display: flex;
   height: 72px;
