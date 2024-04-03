@@ -29,9 +29,15 @@ img {
 .page-header {
   border-bottom: 1px solid #e7e9fc;
 }
-.page-header .container{
+.page-header .container {
   display: flex;
 }
+
+.nav {
+  display: flex;
+  align-items: center;
+}
+
 .logo {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
@@ -44,6 +50,11 @@ img {
 }
 .logos {
   color: #2e2f42;
+}
+.menu {
+  display: flex;
+  margin-left: 76px;
+  gap: 40px;
 }
 .menu-link {
   font-family: "Roboto", sans-serif;
@@ -62,6 +73,8 @@ img {
 }
 .contacts {
   font-style: normal;
+  margin-left: 332px;
+  background-color: aqua;
 }
 .contacts-link {
   font-family: "Roboto", sans-serif;
