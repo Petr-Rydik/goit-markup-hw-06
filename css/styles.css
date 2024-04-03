@@ -75,7 +75,6 @@ img {
   gap: 40px;
   width: 261px;
   height: 24px;
-  padding: 24px 0;
 }
 
 .menu-link {
@@ -86,6 +85,7 @@ img {
   letter-spacing: 0.02em;
   color: #2e2f42;
   text-decoration: none;
+  padding: 24px 0;
 }
 
 .menu .menu-link:hover {
