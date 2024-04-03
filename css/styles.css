@@ -134,10 +134,8 @@ img {
 .button:focus {
   background-color: #404bbf;
 }
-.quality {
-  display: flex;
-  gap: 24px;
-  margin: 120px 0;
+.cont_b {
+  padding: 120px 0;
 }
 .cont_b .title {
   font-family: "Roboto", sans-serif;
