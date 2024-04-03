@@ -139,7 +139,7 @@ img {
 }
 .quality {
   display: flex;
-  gap: 40px;
+  gap: 24px;
 }
 .cont_b .title {
   font-family: "Roboto", sans-serif;
