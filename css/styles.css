@@ -137,9 +137,12 @@ img {
 .cont_b {
   padding: 120px 0;
 }
-.quality {
+.factors {
   display: flex;
   gap: 24px;
+}
+.fact {
+  width: calc((100% - 72px) / 4);
 }
 .cont_b .title {
   font-family: "Roboto", sans-serif;
