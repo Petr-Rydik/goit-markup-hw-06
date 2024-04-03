@@ -130,6 +130,10 @@ img {
   height: 600px;
 }
 
+.cont_a .conteiner {
+  padding: 188px 0;
+}
+
 .page-title {
   font-family: "Roboto";
   font-weight: 700;
@@ -138,7 +142,6 @@ img {
   letter-spacing: 0.02em;
   text-align: center;
   color: white;
-  padding: 188px 0;
 }
 
 .button {
