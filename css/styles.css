@@ -137,8 +137,8 @@ img {
 .cont_b {
   padding: 120px 0;
 }
-.visually-hidden {
-  visibility: hidden;
+.quality {
+  display: flex;
 }
 .cont_b .title {
   font-family: "Roboto", sans-serif;
