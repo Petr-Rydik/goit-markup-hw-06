@@ -216,6 +216,12 @@ img {
 .cont_d {
   padding: 120px 0;
 }
+.kinds {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 24px;
+  row-gap: 48px;
+}
 .portf {
   font-family: "Roboto", sans-serif;
   font-weight: 700;
