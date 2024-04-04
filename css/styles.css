@@ -137,7 +137,7 @@ img {
 .cont_b {
   padding: 120px 0;
 }
-.visibility-hidden {
+.cont_b .visibility-hidden {
   visibility: hidden;
 }
 .factors {
