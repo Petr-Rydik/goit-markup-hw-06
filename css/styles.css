@@ -191,6 +191,9 @@ img {
     0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
   background: #fff;
 }
+.spec {
+  padding: 32px 0;
+}
 .cont_c .title {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
@@ -199,7 +202,7 @@ img {
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
-  margin-top: 32px;
+  margin-bottom: 8px;
 }
 .cont_c .text {
   font-family: "Roboto", sans-serif;
@@ -209,8 +212,6 @@ img {
   letter-spacing: 0.02em;
   text-align: center;
   color: #434455;
-  margin-top: 8px;
-  margin-bottom: 32px;
 }
 .portf {
   font-family: "Roboto", sans-serif;
