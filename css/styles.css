@@ -137,8 +137,10 @@ img {
 .cont_b {
   padding: 120px 0;
 }
-article {
+.is-hidden {
   visibility: hidden;
+  pointer-events: none;
+  position: absolute;
 }
 .factors {
   display: flex;
