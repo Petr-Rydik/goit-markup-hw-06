@@ -227,17 +227,6 @@ img {
   text-transform: capitalize;
   margin-bottom: 72px;
 }
-.top-three {
-  display: flex;
-  justify-content: centr;
-  gap: 24px;
-  margin-bottom: 48px;
-}
-.second-three {
-  display: flex;
-  justify-content: centr;
-  gap: 24px;
-}
 .transfer {
   border-bottom: 1px solid #e7e9fc;
   border-left: 1px solid #e7e9fc;
