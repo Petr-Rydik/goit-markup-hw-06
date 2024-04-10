@@ -99,7 +99,7 @@ img {
 }
 
 .cont_a {
-  background: url(../images/hero.jpg);
+  background-image: url(../images/hero.jpg);
   background-size: contain;
   background-repeat: no-repeat;
   height: 600px;
