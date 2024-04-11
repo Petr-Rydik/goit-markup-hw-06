@@ -269,6 +269,9 @@ img {
   gap: 24px;
   justify-content: center;
 }
+.social-icon {
+  fill: #f4f4fd;
+}
 .cont_d {
   padding: 120px 0;
 }
