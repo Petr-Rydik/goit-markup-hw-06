@@ -191,7 +191,6 @@ img {
   justify-content: center; /*выравнивание по горизонтали*/
   border: 1px solid #8e8f99;
   border-radius: 4px; /*радиус закругления краёв*/
-  width: 264px;
   height: 112px;
   background-color: #f4f4fd; /*цвет фона блока*/
   margin-bottom: 8px;
