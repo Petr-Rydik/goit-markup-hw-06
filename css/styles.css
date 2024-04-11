@@ -28,6 +28,8 @@ img {
 }
 .hero {
   border-bottom: 1px solid #e7e9fc;
+  box-shadow: 0 1px 6px 0 rgba(46, 47, 66, 0.08),
+    0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 2px 1px 0 rgba(46, 47, 66, 0.08);
 }
 .hero .container {
   display: flex;
@@ -56,6 +58,7 @@ img {
   display: flex;
   gap: 40px;
   margin-right: 332px;
+  position: relative;
 }
 .menu-link {
   font-family: "Roboto", sans-serif;
