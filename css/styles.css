@@ -173,7 +173,6 @@ img {
   margin: -1px;
   border: 0;
   padding: 0;
-
   white-space: nowrap;
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
@@ -185,6 +184,17 @@ img {
 }
 .factors .fact {
   width: calc((100% - 72px) / 4);
+}
+.fact-icon {
+  display: flex;
+  align-items: center; /*выравнивание по вертикали*/
+  justify-content: center; /*выравнивание по горизонтали*/
+  border: 1px solid #8e8f99;
+  border-radius: 4px; /*радиус закругления краёв*/
+  width: 264px;
+  height: 112px;
+  background-color: #f4f4fd; /*цвет фона блока*/
+  margin-bottom: 8px;
 }
 .cont_b .title {
   font-family: "Roboto", sans-serif;
