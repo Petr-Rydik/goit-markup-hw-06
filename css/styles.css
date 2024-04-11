@@ -270,6 +270,7 @@ img {
   justify-content: center;
 }
 .social-icon {
+  width: 100%;
   fill: #f4f4fd;
 }
 .cont_d {
