@@ -58,7 +58,6 @@ img {
   display: flex;
   gap: 40px;
   margin-right: 332px;
-  position: relative;
 }
 .menu-link {
   font-family: "Roboto", sans-serif;
@@ -69,6 +68,7 @@ img {
   color: #2e2f42;
   text-decoration: none;
   padding: 24px 0;
+  position: relative;
 }
 .menu .menu-link:hover {
   color: #404bbf;
