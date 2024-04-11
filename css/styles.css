@@ -99,8 +99,12 @@ img {
 }
 
 .cont_a {
-  background-image: url(../images/hero.jpg);
-  background-size: contain;
+  background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url(../images/hero.jpg);
+  background-size: cover;
   background-repeat: no-repeat;
   height: 600px;
   padding: 188px 0;
@@ -296,4 +300,11 @@ img {
 .logo.foot {
   display: inline-block;
   margin-bottom: 16px;
+}
+
+.social-links {
+  display: flex;
+  gap: 24px;
+  justify-content: center;
+  margin-top: 8px;
 }
