@@ -265,11 +265,11 @@ img {
   color: #434455;
 }
 .social-link {
+}
+.social-links {
   display: flex;
   gap: 24px;
   justify-content: center;
-}
-.social-links {
 }
 .social-link .social-icon {
   width: 100%;
