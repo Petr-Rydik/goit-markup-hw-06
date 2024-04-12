@@ -72,7 +72,7 @@ img {
   position: relative;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.menu-link .studio::after {
+.menu-link::after {
   content: "";
   width: 100%; /*ширина по родительскому елементу*/
   position: absolute; /*позиция относительно родительского элемента*/
