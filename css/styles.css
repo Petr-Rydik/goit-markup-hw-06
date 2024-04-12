@@ -264,12 +264,15 @@ img {
   text-align: center;
   color: #434455;
 }
-.social-link {
-}
 .social-links {
   display: flex;
   gap: 24px;
   justify-content: center;
+}
+.group-links {
+  border-radius: 50%;
+}
+.social-link {
 }
 .social-link .social-icon {
   width: 100%;
