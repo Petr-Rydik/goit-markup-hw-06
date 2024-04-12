@@ -269,8 +269,7 @@ img {
   gap: 24px;
   justify-content: center;
 }
-.social-link,
-.social-icon {
+.social-link {
   display: flex; /*для дальнейшей смены размещения дочернего элемента*/
   align-items: center; /*для выравнивия иконок по вертикали*/
   justify-content: center; /*для выравнивия иконок по горизонтали*/
@@ -289,6 +288,9 @@ img {
 }
 .social-icon {
   fill: #f4f4fd;
+  display: flex; /*для дальнейшей смены размещения дочернего элемента*/
+  align-items: center; /*для выравнивия иконок по вертикали*/
+  justify-content: center; /*для выравнивия иконок по горизонтали*/
 }
 .cont_d {
   padding: 120px 0;
