@@ -77,9 +77,7 @@ img {
   width: 100%; /*ширина по родительскому елементу*/
   position: absolute; /*позиция относительно родительского элемента*/
 }
-.menu .studio {
-  color: #404bbf;
-}
+
 .menu .menu-link:hover {
   color: #404bbf;
 }
