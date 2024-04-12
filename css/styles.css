@@ -272,6 +272,7 @@ img {
 .group-links {
 }
 .social-link {
+  display: flex;
   width: 100%; /*100% ширина родительского контейнера*/
   height: 100%; /*100% высота родительского контейнера*/
   background-color: #4d5ae5; /*css замена фона элемента*/
