@@ -269,12 +269,11 @@ img {
   gap: 24px;
   justify-content: center;
 }
-.group-links {
-}
-.social-link {
+.social-link,
+.social-icon {
   display: flex; /*для дальнейшей смены размещения дочернего элемента*/
-  align-items: center; /*для выравнивия эконок по вертикали*/
-  justify-content: center; /*для выравнивия эконок по горизонтали*/
+  align-items: center; /*для выравнивия иконок по вертикали*/
+  justify-content: center; /*для выравнивия иконок по горизонтали*/
   width: 100%; /*100% ширина родительского контейнера*/
   height: 100%; /*100% высота родительского контейнера*/
   background-color: #4d5ae5; /*css замена фона элемента*/
