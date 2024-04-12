@@ -74,7 +74,7 @@ img {
 .menu .studio {
   color: #404bbf;
 }
-.menu .studio::after {
+.studio::after {
   content: "";
   width: 100%; /*ширина по родительскому елементу*/
   position: absolute; /*позиция относительно родительского элемента*/
