@@ -269,6 +269,8 @@ img {
   gap: 24px;
   justify-content: center;
 }
+.group-links {
+}
 .social-link {
   display: flex; /*для дальнейшей смены размещения дочернего элемента*/
   align-items: center; /*для выравнивия эконок по вертикали*/
@@ -277,6 +279,8 @@ img {
   height: 100%; /*100% высота родительского контейнера*/
   background-color: #4d5ae5; /*css замена фона элемента*/
   border-radius: 50%;
+  width: 40px;
+  height: 40px;
 }
 .social-link:hover {
   background-color: #404bbf; /*смена цвета при наведении*/
