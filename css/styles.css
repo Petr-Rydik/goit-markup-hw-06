@@ -278,6 +278,12 @@ img {
   background-color: #4d5ae5; /*css замена фона элемента*/
   border-radius: 50%;
 }
+.social-link:hover {
+  background-color: #404bbf;
+}
+.social-link:focus {
+  background-color: #404bbf;
+}
 .cont_d {
   padding: 120px 0;
 }
