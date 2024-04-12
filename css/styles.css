@@ -72,7 +72,7 @@ img {
   position: relative;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.menu-link::after {
+.menu .studio::after {
   content: "";
   width: 100%; /*ширина по родительскому елементу*/
   position: absolute; /*позиция относительно родительского элемента*/
@@ -83,9 +83,7 @@ img {
   border-radius: 2px;
 }
 
-.menu .menu-link:hover {
-  color: #404bbf;
-}
+.menu .menu-link:hover,
 .menu .menu-link:focus {
   color: #404bbf;
 }
