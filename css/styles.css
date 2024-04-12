@@ -17,6 +17,9 @@ ul {
   margin: 0;
   padding-left: 0;
 }
+button {
+  cursor: pointer;
+}
 img {
   display: block;
   max-width: 100%;
@@ -71,6 +74,7 @@ img {
   position: relative;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+/*дополнительный класс для стилизации через псевдоэлемент*/
 .studio::after {
   content: "";
   width: 100%; /*ширина по родительскому елементу*/
@@ -115,18 +119,17 @@ img {
 }
 .cont_a {
   background-image: linear-gradient(
+      to bottom,
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
     ),
-    url(../images/hero.jpg);
-  background-size: cover;
-  background-position: center;
+    url(../images/hero.jpg); /*затемнение изображения*/
+  background-size: cover; /*коррекция размещения изображения*/
+  background-position: center; /*корректировка относительно рамки элемента*/
   background-repeat: no-repeat;
-  height: 600px;
   max-width: 1440px;
   padding: 188px 0;
 }
-
 .page-title {
   font-family: "Roboto";
   font-weight: 700;
