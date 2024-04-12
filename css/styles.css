@@ -284,6 +284,9 @@ img {
 .social-link:focus {
   background-color: #404bbf; /*смена цвета при клике*/
 }
+.social-icon {
+  fill: #f4f4fd;
+}
 .cont_d {
   padding: 120px 0;
 }
