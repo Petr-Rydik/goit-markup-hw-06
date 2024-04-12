@@ -279,10 +279,10 @@ img {
   border-radius: 50%;
 }
 .social-link:hover {
-  background-color: #404bbf;
+  background-color: #404bbf; /*смена цвета при наведении*/
 }
 .social-link:focus {
-  background-color: #404bbf;
+  background-color: #404bbf; /*смена цвета при клике*/
 }
 .cont_d {
   padding: 120px 0;
