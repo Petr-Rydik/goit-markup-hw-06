@@ -347,6 +347,9 @@ img {
   position: relative;
   overflow: hidden;
 }
+.img-portfolio-text {
+  position: absolute;
+}
 .transfer {
   border-bottom: 1px solid #e7e9fc;
   border-left: 1px solid #e7e9fc;
