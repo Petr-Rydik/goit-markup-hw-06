@@ -349,6 +349,7 @@ img {
 }
 .img-portfolio-text {
   position: absolute;
+  top: 0;
 }
 .transfer {
   border-bottom: 1px solid #e7e9fc;
