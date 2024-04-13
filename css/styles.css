@@ -6,6 +6,9 @@ body {
   color: #434455;
   background-color: #ffffff;
 }
+
+/* удаление дефолтно-браузерных-------------------------------------*/
+
 h1,
 h2,
 h3,
@@ -18,7 +21,7 @@ ul {
   padding-left: 0;
 }
 button {
-  cursor: pointer;
+  cursor: pointer; /*при наведении стрелка в руку*/
 }
 img {
   display: block;
@@ -29,6 +32,9 @@ img {
   margin: 0 auto;
   padding: 0 15px;
 }
+
+/* ЛОГО, менюшка и контакты-------------------------------------------*/
+
 .hero {
   border-bottom: 1px solid #e7e9fc;
   box-shadow: 0 1px 6px 0 rgba(46, 47, 66, 0.08),
@@ -74,7 +80,7 @@ img {
   position: relative;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-/*дополнительный класс для стилизации через псевдоэлемент*/
+/*дополнительный класс для стилизации через псевдоэлемент------------*/
 .studio::after {
   content: "";
   width: 100%; /*ширина по родительскому елементу*/
@@ -117,6 +123,9 @@ img {
 .contacts .contacts-link:focus {
   color: #404bbf;
 }
+
+/* ШАПКА, Н1, КНОПКА------------------------------------------------*/
+
 .cont_a {
   background-image: linear-gradient(
       to bottom,
@@ -166,6 +175,9 @@ img {
 .button:focus {
   background-color: #404bbf;
 }
+
+/* ФАКТОРЫ/CONTAINER b -------------------------------------------*/
+
 .cont_b {
   padding: 120px 0;
 }
@@ -192,10 +204,10 @@ img {
   display: flex;
   align-items: center; /*выравнивание по вертикали*/
   justify-content: center; /*выравнивание по горизонтали*/
-  border: 1px solid #8e8f99;
-  border-radius: 4px; /*радиус закругления краёв*/
   height: 112px;
   background-color: #f4f4fd; /*цвет фона блока*/
+  border-radius: 4px; /*радиус закругления краёв*/
+  border: 1px solid #8e8f99;
   margin-bottom: 8px;
 }
 .cont_b .title {
@@ -215,6 +227,9 @@ img {
   letter-spacing: 0.02em;
   color: #434455;
 }
+
+/* ПЕРСОНАЛ/ CONTAINER C ----------------------------------------*/
+
 .cont_c {
   background-color: #f4f4fd;
   height: 732px;
@@ -297,6 +312,9 @@ img {
 .social-icon {
   fill: #f4f4fd;
 }
+
+/* ПОРТФОЛИО/ CONTAINER d-----------------------------------------*/
+
 .cont_d {
   padding: 120px 0;
 }
@@ -305,6 +323,10 @@ img {
   flex-wrap: wrap;
   column-gap: 24px;
   row-gap: 48px;
+}
+.kind:hover {
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 .portf {
   font-family: "Roboto", sans-serif;
@@ -342,6 +364,9 @@ img {
   letter-spacing: 0.02em;
   color: #434455;
 }
+
+/* ПОДВАЛ----------------------------------------------------------*/
+
 .footer {
   background-color: #2e2f42;
   padding: 100px 0;
