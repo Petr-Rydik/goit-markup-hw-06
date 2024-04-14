@@ -228,7 +228,7 @@ img {
   color: #434455;
 }
 
-/* ПЕРСОНАЛ/ CONTAINER C ----------------------------------------*/
+/* ПЕРСОНАЛ с соц. сетями/ CONTAINER C ----------------------------------------*/
 
 .cont_c {
   background-color: #f4f4fd;
@@ -414,10 +414,45 @@ img {
 .logotext {
   margin-right: 120px;
 }
-.social-text {
+.foot-social-text {
   font-weight: 500; /*жирность текста*/
   line-height: 1.5; /*междурядье*/
   letter-spacing: 0.02em; /*межбуковье*/
   color: #ffffff;
-  margin-bottom: 16px;
+}
+.foot-list {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: row;
+  gap: 16px;
+  margin-top: 16px;
+}
+.foot-links .foot-link {
+  display: flex; /*для дальнейшей смены размещения дочернего элемента*/
+  flex-direction: row;
+  align-items: center; /*для выравнивия иконок по вертикали*/
+  justify-content: center; /*для выравнивия иконок по горизонтали*/
+  width: 100%; /*100% ширина родительского контейнера*/
+  height: 100%; /*100% высота родительского контейнера*/
+  background-color: #4d5ae5; /*css замена фона элемента*/
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.foot-link:hover {
+  background-color: #404bbf;
+}
+.foot-link:focus {
+  background-color: #404bbf;
+}
+.foot-icon {
+  fill: #f4f4fd;
+}
+.footer .container {
+  display: flex;
+}
+.foot-social {
+  margin-left: 120px;
 }
