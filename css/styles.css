@@ -452,6 +452,7 @@ img {
 }
 .footer .container {
   display: flex;
+  align-items: baseline;
 }
 .foot-social {
   margin-left: 120px;
