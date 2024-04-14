@@ -419,6 +419,7 @@ img {
   line-height: 1.5; /*междурядье*/
   letter-spacing: 0.02em; /*межбуковье*/
   color: #ffffff;
+  margin-bottom: 16px;
 }
 .foot-list {
   display: flex;
@@ -426,7 +427,6 @@ img {
   justify-content: flex-start;
   flex-direction: row;
   gap: 16px;
-  margin-top: 16px;
 }
 .foot-links .foot-link {
   display: flex; /*для дальнейшей смены размещения дочернего элемента*/
