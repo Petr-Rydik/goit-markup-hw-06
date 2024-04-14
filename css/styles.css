@@ -416,4 +416,8 @@ img {
 }
 .social-text {
   font-weight: 500; /*жирность текста*/
+  line-height: 1.5; /*междурядье*/
+  letter-spacing: 0.02em; /*межбуковье*/
+  color: #ffffff;
+  margin-bottom: 16px;
 }
