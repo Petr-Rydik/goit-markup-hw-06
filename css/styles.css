@@ -422,8 +422,8 @@ img {
   margin-bottom: 16px;
 }
 .foot-list {
-  display: flex;
-  align-items: flex-start;
+  display: flex; /*элементы по горизонтали*/
+  align-items: flex-start; /*всё прижато к левому краю*/
   justify-content: flex-start;
   flex-direction: row;
   gap: 16px;
@@ -451,8 +451,8 @@ img {
   fill: #f4f4fd;
 }
 .footer .container {
-  display: flex;
-  align-items: baseline;
+  display: flex; /*делает горизонтальное меню*/
+  align-items: baseline; /*прижато всё к левому краю*/
 }
 .foot-social {
   margin-left: 120px;
