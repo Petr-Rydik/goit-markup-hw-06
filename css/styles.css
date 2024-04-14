@@ -414,3 +414,6 @@ img {
 .logotext {
   margin-right: 120px;
 }
+.social-text {
+  font-weight: 500; /*жирность текста*/
+}
