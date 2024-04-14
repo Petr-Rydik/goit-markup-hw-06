@@ -350,6 +350,14 @@ img {
 .img-portfolio-text {
   position: absolute;
   top: 0;
+  line-height: 1.5; /*расстояние между строками*/
+  letter-spacing: 0.02em; /*расстояние между буквами*/
+  color: #f4f4fd;
+  padding: 40px 32px; /*расстояние между содержимым и рамкой элемента*/
+  background-color: #4d5ae5;
+  height: 100%;
+  transform: translateY(100%); /*смена позиции элемента по оси Y*/
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1); /*анимация*/
 }
 .transfer {
   border-bottom: 1px solid #e7e9fc;
