@@ -359,7 +359,7 @@ img {
   transform: translateY(100%); /*смена позиции элемента по оси Y*/
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1); /*анимация*/
 }
-.kind .img-portfolio-text:hover {
+.img-portfolio p {
   transform: translateY(0%);
 }
 .transfer {
