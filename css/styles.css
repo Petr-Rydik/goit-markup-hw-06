@@ -456,7 +456,6 @@ img {
 }
 .foot-social {
   margin-left: 120px;
-  margin-right: 24px;
 }
 .subscr-text {
   font-weight: 500;
@@ -482,11 +481,12 @@ img {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   background-color: transparent;
   color: #ffffff;
-  margin-right: 24px;
 }
 .subscr-butt {
+  display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: row;
   gap: 16px;
+  min-width: 165px;
 }
