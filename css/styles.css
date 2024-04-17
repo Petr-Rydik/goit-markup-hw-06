@@ -484,11 +484,10 @@ img {
 }
 .subscr-butt {
   display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: row;
+  align-items: center; /*выравнивание по осям*/
+  justify-content: center; /*выравнивание по осям*/
+  flex-direction: row; /*размещение слева направо*/
   gap: 16px;
-  min-width: 165px;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -496,4 +495,6 @@ img {
   text-align: center;
   color: #fff;
   background: #4d5ae5;
+  border: none; /*отключение стандартного оформления*/
+  border-radius: 4px;
 }
