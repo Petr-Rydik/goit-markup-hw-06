@@ -591,13 +591,13 @@ img {
 .modal-inp:focus {
   border-color: #4d5ae5;
 }
-.modal-chel {
+.modal-icon {
   position: absolute;
   left: 16px;
   top: 50%; /*смещение к верхнему краю контейнера*/
   transform: translateY(-50%); /*центровка по вертикали*/
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.modal-inp:focus + .modal-chel {
+.modal-inp:focus + .modal-icon {
   fill: #4d5ae5;
 }
