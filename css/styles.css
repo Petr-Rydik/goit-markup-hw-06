@@ -564,3 +564,19 @@ input {
   color: #2e2f42;
   padding-top: 72px;
 }
+.comment {
+  height: 120px;
+  margin-bottom: 16px;
+}
+.modal-policy {
+  width: 360px;
+  height: 16px;
+  margin-bottom: 24px;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.16667;
+  letter-spacing: 0.04em;
+  color: #8e8f99;
+}
+.modal-butt {
+}
