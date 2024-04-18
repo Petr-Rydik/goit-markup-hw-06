@@ -563,6 +563,9 @@ img {
   color: #2e2f42;
   margin-bottom: 16px;
 }
+.modal-line {
+  margin-bottom: 8px;
+}
 .modal-lbl {
   font-weight: 400;
   font-size: 12px;
@@ -570,7 +573,7 @@ img {
   letter-spacing: 0.04em;
   color: #8e8f99;
   display: block;
-  margin-bottom: 8px;
+  margin-bottom: 4px;
 }
 .modal-item {
   position: relative;
