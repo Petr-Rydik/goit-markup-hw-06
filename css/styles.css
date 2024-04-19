@@ -626,7 +626,7 @@ img {
 .modal-check {
   margin-bottom: 24px;
 }
-.check-inp .visually-hidden {
+.check-inp {
   position: absolute;
   width: 1px;
   height: 1px;
