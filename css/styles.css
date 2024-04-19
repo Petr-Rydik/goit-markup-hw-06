@@ -601,3 +601,6 @@ img {
 .modal-inp:focus + .modal-icon {
   fill: #4d5ae5;
 }
+.com {
+  margin-bottom: 16px;
+}
