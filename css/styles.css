@@ -645,3 +645,8 @@ img {
   justify-content: center;
   fill: transparent;
 }
+.check-inp:checked + .check-lbl .check-span {
+  background-color: #404bbf;
+  border: none;
+  fill: #f4f4fd;
+}
