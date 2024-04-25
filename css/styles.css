@@ -12,6 +12,9 @@ body {
 h1,
 h2,
 h3,
+h4,
+h5,
+h6,
 p {
   margin: 0;
 }
@@ -169,9 +172,7 @@ img {
   margin: 0 auto;
   margin-top: 48px;
 }
-.button:hover {
-  background-color: #404bbf;
-}
+.button:hover,
 .button:focus {
   background-color: #404bbf;
 }
