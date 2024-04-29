@@ -212,10 +212,11 @@ a {
 }
 .factors {
   display: flex;
+  flex-wrap: wrap;
   gap: 24px;
 }
-.factors .fact {
-  width: calc((100% - 72px) / 4);
+.fact {
+  flex-basis: calc((100% - 72px) / 4);
 }
 .fact-icon {
   display: flex;
@@ -227,7 +228,7 @@ a {
   border: 1px solid #8e8f99;
   margin-bottom: 8px;
 }
-.cont_b .title {
+.title {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 20px;
@@ -249,7 +250,6 @@ a {
 
 .cont_c {
   background-color: #f4f4fd;
-  height: 732px;
   padding: 120px 0;
 }
 .section-title {
@@ -980,7 +980,6 @@ a {
   .factors {
     column-gap: 24px;
     row-gap: 72px;
-    flex-wrap: wrap;
   }
   .list-text {
     max-width: 356px;
