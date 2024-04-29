@@ -36,7 +36,7 @@ img {
   padding: 0 15px;
 }
 
-/* ЛОГО, менюшка и контакты-------------------------------------------*/
+/*=============HEADER- logo\menu\contacts===============*/
 
 .hero {
   border-bottom: 1px solid #e7e9fc;
@@ -127,7 +127,7 @@ img {
   color: #404bbf;
 }
 
-/* ШАПКА, Н1, КНОПКА------------------------------------------------*/
+/*========CONT_A- h1\button==========*/
 
 .cont_a {
   background-image: linear-gradient(
@@ -315,7 +315,7 @@ img {
   fill: #f4f4fd;
 }
 
-/* ПОРТФОЛИО/ CONTAINER d-----------------------------------------*/
+/*===========PORTFOLIO-CONTAINER d============*/
 
 .cont_d {
   padding: 120px 0;
@@ -391,7 +391,7 @@ img {
   color: #434455;
 }
 
-/* ПОДВАЛ----------------------------------------------------------*/
+/*================FOOTER==================*/
 
 .footer {
   background-color: #2e2f42;
@@ -415,6 +415,8 @@ img {
 .logotext {
   margin-right: px;
 }
+
+/*==============FOOTER-SOCIAL LINKS===============*/
 .foot-social-text {
   font-weight: 500; /*жирность текста*/
   line-height: 1.5; /*междурядье*/
@@ -457,6 +459,8 @@ img {
   margin-left: 120px;
   margin-right: 80px;
 }
+
+/*================FOOTER-SUBSCRIBE================*/
 .subscr-text {
   font-weight: 500;
   font-size: 16px;
@@ -503,6 +507,7 @@ img {
   fill: #ffffff;
   margin-left: 16px;
 }
+/*====================modal-overlay=====================*/
 .modal-overlay {
   position: fixed;
   top: 0;
@@ -514,7 +519,7 @@ img {
   opacity: 0;
   pointer-events: none;
 }
-.modal-overlay.is-open {
+.modal-overlay-is-open {
   opacity: 1;
   pointer-events: auto;
 }
