@@ -84,6 +84,9 @@ a {
 .logo-black {
   color: #2e2f42;
 }
+.burger-icon {
+  display: none;
+}
 .menu {
   display: flex;
   gap: 40px;
@@ -710,9 +713,10 @@ a {
   .menu {
     display: none;
   }
-  .contacts {
+  .contacts-menu {
     display: none;
   }
+
   /*CONT_A*/
   .cont_a {
     padding: 72px 52px;
@@ -831,7 +835,7 @@ a {
   }
   /*MOB-MENU*/
   .mob-menu-overlay {
-    display: none;
+    display: flex;
     position: fixed;
     left: 0;
     top: 0;
@@ -948,6 +952,9 @@ a {
   }
   .logo {
     margin: 0;
+  }
+  .burger-icon {
+    display: none;
   }
   .contacts-menu {
     display: flex;
