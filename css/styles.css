@@ -402,7 +402,7 @@ a {
 }
 .footer-text {
   color: #f4f4fd;
-  max-width: 264px;
+  width: 264px;
 }
 .logo-footer {
   color: #f4f4fd;
@@ -495,7 +495,7 @@ a {
 }
 /*====================modal-overlay=====================*/
 .modal-overlay {
-  display: none;
+  display: none; /*flex*/
   background-color: rgba(46, 47, 66, 0.4);
   position: fixed;
   left: 0;
