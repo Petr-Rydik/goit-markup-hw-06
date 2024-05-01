@@ -837,6 +837,8 @@ a {
   .mob-menu-overlay {
     transform: translateX(0); /*100%*/
     display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
     position: fixed;
     left: 0;
     top: 0;
@@ -846,13 +848,9 @@ a {
       visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
   .nav-link {
-    padding: 0;
+    /*padding: 0;*/
   }
-  .mob-menu {
-    padding: 72px 24px 40px 16px;
-    position: absolute;
-    top: 0;
-    right: 0;
+  .mob-butt-menu {
     width: 320px;
     background-color: #fcfcfc;
     box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.14), 0 1px 3px 0 rgba(0, 0, 0, 0.12),
@@ -860,11 +858,48 @@ a {
     border-radius: 4px;
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
+  .close-black-menu {
+    position: absolute;
+    top: 24px;
+    right: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /*padding: 0;*/
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    background-color: #e7e9fc;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+      border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  .close-black-menu:hover,
+  .close-black-menu:focus {
+    background-color: #404bbf;
+    border: none;
+  }
+  .close-black-menu:hover .modal-close,
+  .close-black-menu:focus .modal-close {
+    fill: #ffffff;
+  }
+  .mob-menu {
+    padding-top: 72px;
+    padding-left: 16px;
+    /*padding: 72px 24px 40px 16px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 320px;
+    background-color: #fcfcfc;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.14), 0 1px 3px 0 rgba(0, 0, 0, 0.12),*/
+  }
   .menu-link {
     padding: 0;
   }
   .menu-links {
-    margin-bottom: 40px;
+    padding-bottom: 40px;
   }
   .nav-menu {
     font-weight: 700;
@@ -874,22 +909,26 @@ a {
     color: #404bbf;
     padding-bottom: 84px;
   }
+  .mob-add-soc {
+    padding-left: 16px;
+  }
   .contacts-item {
-    display: block;
-    margin-bottom: 24px;
+    /*display: block;*/
+    padding-bottom: 24px;
   }
   .mob-menu-social {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 40px;
-    margin-top: 24px;
+    padding-bottom: 40px;
+    padding-top: 24px;
+    padding-right: 24px;
   }
   .social-link:hover,
   .social-link:focus {
     background-color: #31d0aa;
   }
   .contacts-list-mob-menu {
-    padding: 0;
+    /*padding: 0;*/
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -907,32 +946,6 @@ a {
   .contacts-mob-menu {
     padding-top: 84px;
     padding-bottom: 24px;
-  }
-  .close-black-menu {
-    position: absolute;
-    top: 24px;
-    right: 24px;
-    width: 24px;
-    height: 24px;
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: #e7e9fc;
-    border: 1px solid rgba(0, 0, 0, 0.1);
-    padding: 0;
-    cursor: pointer;
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-      border 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  }
-  .close-black-menu:hover,
-  .close-black-menu:focus {
-    background-color: #404bbf;
-    border: none;
-  }
-  .close-black-menu:hover .modal-close,
-  .close-black-menu:focus .modal-close {
-    fill: #ffffff;
   }
 }
 /*===================== @media Tablet===================== */
