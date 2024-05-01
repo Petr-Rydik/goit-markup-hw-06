@@ -36,6 +36,7 @@ button {
 img {
   display: block;
   max-width: 100%;
+  height: auto;
 }
 a {
   text-decoration: none;
@@ -717,7 +718,7 @@ a {
     display: none;
   }
 
-  /*CONT_A*/
+  /*h1\button*/
   .cont_a {
     padding: 72px 52px;
     height: auto;
@@ -726,7 +727,7 @@ a {
     font-size: 36px;
     line-height: 1.11;
   }
-  /*CONT_B*/
+  /*Factors*/
   .fact-icon {
     display: none;
   }
@@ -741,7 +742,6 @@ a {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
-    text-align: center;
   }
   .list-text {
     font-weight: 500;
@@ -818,7 +818,7 @@ a {
   .footer-input {
     width: 100%;
   }
-  /*MODAL*/
+  /*MODAL-OVERLAY*/
   .modal {
     width: 100%;
     max-width: 288px;
@@ -835,7 +835,8 @@ a {
   }
   /*MOB-MENU*/
   .mob-menu-overlay {
-    display: none; /*flex*/
+    transform: translateX(0); /*100%*/
+    display: flex;
     position: fixed;
     left: 0;
     top: 0;
@@ -849,11 +850,6 @@ a {
   }
   .mob-menu {
     padding: 72px 24px 40px 16px;
-    margin: 0 auto;
-    position: relative;
-    margin-left: auto;
-    margin-right: auto;
-
     position: absolute;
     top: 0;
     right: 0;
@@ -970,7 +966,7 @@ a {
     letter-spacing: 0.04em;
     color: #434455;
   }
-  /*HERO*/
+  /*h1\button*/
   .cont_a {
     padding: 112px 0;
   }
@@ -985,6 +981,12 @@ a {
   }
   .fact-icon {
     display: none;
+  }
+  .title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    color: #2e2f42;
   }
   .factors {
     column-gap: 24px;
