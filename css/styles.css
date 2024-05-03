@@ -682,7 +682,9 @@ a {
 .privacy-policy {
   color: #4d5ae5;
 }
-
+.mob-menu-overlay {
+  display: none;
+}
 /*=====@media Mobile START=====*/
 @media screen and (max-width: 320px), (max-width: 767px) {
   .container {
@@ -835,10 +837,10 @@ a {
   }
   /*MOB-MENU*/
   .mob-menu-overlay.active {
-    transform: translateX(0); /*100%*/
+    transform: translateX(100%); /*0*/
   }
   .mob-menu-overlay {
-    transform: translateX(100%);
+    transform: translateX(0);
     display: flex;
     justify-content: space-between;
     flex-direction: column;
